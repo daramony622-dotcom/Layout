@@ -37,3 +37,42 @@ aside {
     rgba(28, 0, 128, 0.432)
   );
 }
+/* Dark background for the body to match the image */
+body {
+  background-color: #1a1a1a;
+}
+
+/* The main container for the navbar */
+.custom-navbar {
+  background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent grey */
+  backdrop-filter: blur(10px); /* Frosted glass effect */
+  border-radius: 50px;
+  align-items: center;
+}
+
+/* Base style for all links */
+.custom-navbar .nav-link {
+  color: #d1d1d1;
+  padding: 8px 20px;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+/* Hover State (# / HOVER in your image) */
+.custom-navbar .nav-link:hover {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Selected/Active State (# / SELECTED in your image) */
+.custom-navbar .nav-link.active {
+  background-color: #e0e0e0 !important;
+  color: #000000 !important;
+}
+
+/* The dark 'Contact' button on the right */
+.contact-btn {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  border: 1px solid #444;
+}
