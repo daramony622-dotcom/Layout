@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: url("Tree.png");
+}
+#Color-Btn {
+  background: linear-gradient(
+    120deg,
+    rgba(255, 162, 0, 0.393),
+    rgba(89, 89, 216, 0.47),
+    rgb(132, 127, 127),
+    rgba(0, 255, 255, 0.536)
+  );
+}
+.text {
+  color: transparent;
+  background-clip: text;
+  background: linear-gradient(
+    360deg,
+    rgba(255, 59, 59, 0.544),
+    rgba(255, 229, 63, 0.705),
+    rgba(48, 192, 236, 0.832),
+    rgb(146, 204, 255)
+  );
+  -webkit-background-clip: text;
+}
+aside {
+  background: linear-gradient(
+    120deg,
+    rgba(48, 224, 236, 0.432),
+    rgba(159, 214, 208, 0.399),
+    rgba(28, 0, 128, 0.432)
+  );
+}
