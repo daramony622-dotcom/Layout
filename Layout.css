@@ -63,13 +63,13 @@ aside {
 
 /* Selected/Active State (# / SELECTED in your image) */
 .custom-navbar .nav-link.active {
-  background-color: #e0e0e0 !important;
-  color: #000000 !important;
+  background-color: #e0e0e0;
+  color: #000000 ;
 }
 
 /* The dark 'Contact' button on the right */
 .contact-btn {
-  background-color: #000000 !important;
-  color: #ffffff !important;
+  background-color: #000000 ;
+  color: #ffffff;
   border: 1px solid #444;
 }
