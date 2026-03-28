@@ -7,6 +7,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background: url("Tree.png");
+  background-color: #1a1a1a;
 }
 #Color-Btn {
   background: linear-gradient(
@@ -37,12 +38,8 @@ aside {
     rgba(28, 0, 128, 0.432)
   );
 }
-/* Dark background for the body to match the image */
-body {
-  background-color: #1a1a1a;
-}
 
-/* The main container for the navbar */
+
 .custom-navbar {
   background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent grey */
   backdrop-filter: blur(10px); /* Frosted glass effect */
